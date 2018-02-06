@@ -51,7 +51,7 @@ class Rectangless(Shapes):
         self.height = height
 
     def area_rect(self):
-        print self.length+self.breadth
+        print self.length*self.breadth
 
 r1=Rectangle("rect",3,4,5)
 print r1.area()
